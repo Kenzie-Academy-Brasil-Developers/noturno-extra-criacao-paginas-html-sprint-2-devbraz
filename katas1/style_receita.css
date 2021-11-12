@@ -1,1 +1,67 @@
 /* FOLHA DE ESTILO DA PAGINA DE RECEITAS */
+
+html, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.titulo {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center
+}
+
+.subtitle {
+    font-weight: normal;
+    text-align: center;
+}
+
+img {
+    
+    width: 250px;
+    height: 150px;
+    
+}
+
+.display {
+    display:inline-block;
+
+}
+
+ul {
+    list-style: none;
+    text-align: auto;
+    align-items: auto;
+}
+
+a {
+    width: 250px;
+}
+
+li {
+    margin-left: 80px;
+    width: 250px;
+    display: inline-block;
+}
+
+.align {
+    list-style: none;
+    text-align: center;
+    align-items: auto;
+}
+
+.display-link {
+    margin: 0;
+    list-style: none;
+    text-align: none;
+    align-items: none;
+
+}
+
+.margin-ajust {
+    margin-right: 80px;
+}

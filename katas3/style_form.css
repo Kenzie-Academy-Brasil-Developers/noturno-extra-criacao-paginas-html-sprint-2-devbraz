@@ -1,1 +1,93 @@
-/* FOLHA DE ESTILO DA PAGINA DE FORMULÁRIO */
+
+html, body, p {
+	background-color:rgba(247, 241, 241, 0.939);
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.container {
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.flexbox {
+	font-size: 20px;
+	justify-content: left;
+	text-align: left;
+	max-width: 400px;
+    margin: 0;
+	font-size: 1.5em;
+}
+
+.align {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.containerSection {
+	text-align: start;
+	justify-content: left;
+	display: flex;
+	flex-direction: row;
+	align-items:flex-start;
+}
+
+.box {
+	box-shadow: 0 0 1em rgb(99, 99, 99);
+	background-color: white;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+
+label {
+	font-weight: bold;
+	font-family: Helvetica;
+	font-size: 20px;
+}
+
+p {
+	background-color: white;
+	font-size: 15px;
+	font-family: 'lato';
+}
+
+.labelFontAge {
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.size {
+	text-align: center;
+	align-items: center;
+	align-content: space-between;
+	flex-wrap: wrap;
+}
+
+section {
+	margin: 10px;
+}
+
+.ajust {
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+.containerP {
+	align-content: space-between;
+	text-align: start;
+	display: flex;
+	flex-direction: row;
+}
+
+.positionLeft {
+	flex-direction: column;
+}
+
+
+
